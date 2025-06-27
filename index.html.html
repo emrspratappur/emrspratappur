@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
-    header { background: #004d40; color: #fff; padding: 20px; text-align: center; }
-    nav { background: #00695c; display: flex; justify-content: center; flex-wrap: wrap; }
-    nav a { color: white; padding: 14px 20px; text-decoration: none; }
-    nav a:hover { background: #004d40; }
+    header { background: #004d40; color: #fff; padding: 30px 20px; text-align: center; }
+    nav { background: #00695c; display: flex; justify-content: center; flex-wrap: wrap; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    nav a { color: white; padding: 14px 20px; text-decoration: none; font-weight: bold; }
+    nav a:hover { background: #004d40; transition: 0.3s ease-in-out; }
     .lang-toggle { position: absolute; top: 20px; right: 20px; }
-    section { padding: 20px; background: white; margin: 20px auto; max-width: 1000px; border-radius: 8px; }
-    footer { background: #004d40; color: white; text-align: center; padding: 10px; }
-
+    section { padding: 30px 20px; background: white; margin: 30px auto; max-width: 1000px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    footer { background: #004d40; color: white; text-align: center; padding: 15px; margin-top: 40px; }
     [lang="hi"] { display: none; }
+    h2 { color: #00695c; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -33,9 +33,11 @@
 
 <nav>
   <a href="#home">Home / होम</a>
-  <a href="#about">About / परिचयय</a>
+  <a href="#about">About / परिचय</a>
   <a href="#academics">Academics / शिक्षाविद</a>
   <a href="#admissions">Admissions / प्रवेश</a>
+  <a href="#faculty">Faculty / संकाय</a>
+  <a href="#gallery">Gallery / गैलरी</a>
   <a href="#contact">Contact / संपर्क</a>
 </nav>
 
@@ -56,6 +58,8 @@
   <h2 lang="hi">शिक्षा</h2>
   <p lang="en">CBSE curriculum from Class VI to XII, with Science, Commerce, and Arts streams.</p>
   <p lang="hi">CBSE पाठ्यक्रम कक्षा VI से XII तक – विज्ञान, वाणिज्य और कला संकाय के साथ।</p>
+  <p lang="en"><strong>Result:</strong> Board and internal exam results are declared annually and can be accessed from the office or school portal.</p>
+  <p lang="hi"><strong>परिणाम:</strong> बोर्ड और आंतरिक परीक्षाओं के परिणाम प्रतिवर्ष घोषित किए जाते हैं और कार्यालय या पोर्टल से प्राप्त किए जा सकते हैं।</p>
 </section>
 
 <section id="admissions">
@@ -65,12 +69,32 @@
   <p lang="hi">प्रवेश परीक्षा प्रतिवर्ष होती है। फॉर्म ऑनलाइन/ऑफलाइन उपलब्ध होते हैं।</p>
 </section>
 
+<section id="faculty">
+  <h2 lang="en">Faculty</h2>
+  <h2 lang="hi">संकाय</h2>
+  <p lang="en">Our experienced and qualified faculty members are dedicated to holistic development of students.</p>
+  <p lang="hi">हमारे अनुभवी और योग्य शिक्षक छात्र-छात्राओं के समग्र विकास के लिए समर्पित हैं।</p>
+</section>
+
+<section id="gallery">
+  <h2 lang="en">Gallery</h2>
+  <h2 lang="hi">गैलरी</h2>
+  <p lang="en">Photos and glimpses of school events, infrastructure, and student activities will be displayed here.</p>
+  <p lang="hi">विद्यालय की गतिविधियों, भवन और आयोजनों की झलकियां यहाँ प्रदर्शित की जाएंगी।</p>
+</section>
+
 <section id="contact">
   <h2 lang="en">Contact Us</h2>
   <h2 lang="hi">संपर्क करें</h2>
-  <p>
-    <span lang="en">Address: EMRS Pratappur, Chhattisgarh<br>Email: emrs@example.com<br>Phone</p>
-    <span lang="hi">पता: ईएमआरएस प्रतापपुर, छत्तीसगढ़<br>ईमेल: emrs@example.com</p>
+  <p lang="en">
+    Address: EMRS Pratappur, Chhattisgarh<br>
+    Email: emrs@example.com<br>
+    Phone: +91-XXXXXXXXXX
+  </p>
+  <p lang="hi">
+    पता: ईएमआरएस प्रतापपुर, छत्तीसगढ़<br>
+    ईमेल: emrs@example.com<br>
+    फोन: +91-XXXXXXXXXX
   </p>
 </section>
 
