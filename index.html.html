@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EMRS Pratappur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header { background: #004d40; color: #fff; padding: 20px; text-align: center; }
+    nav { background: #00695c; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav a { color: white; padding: 14px 20px; text-decoration: none; }
+    nav a:hover { background: #004d40; }
+    .lang-toggle { position: absolute; top: 20px; right: 20px; }
+    section { padding: 20px; background: white; margin: 20px auto; max-width: 1000px; border-radius: 8px; }
+    footer { background: #004d40; color: white; text-align: center; padding: 10px; }
+
+    [lang="hi"] { display: none; }
+  </style>
+</head>
+<body>
+
+<div class="lang-toggle">
+  <button onclick="setLang('en')">English</button>
+  <button onclick="setLang('hi')">हिन्दी</button>
+</div>
+
+<header>
+  <h1 lang="en">EMRS Pratappur</h1>
+  <h1 lang="hi">एकलव्य मॉडल आवासीय विद्यालय प्रतापपुर</h1>
+  <p lang="en">Empowering Tribal Education</p>
+  <p lang="hi">आदिवासी शिक्षा का सशक्तिकरण</p>
+</header>
+
+<nav>
+  <a href="#home">Home / होम</a>
+  <a href="#about">About / परिचयय</a>
+  <a href="#academics">Academics / शिक्षाविद</a>
+  <a href="#admissions">Admissions / प्रवेश</a>
+  <a href="#contact">Contact / संपर्क</a>
+</nav>
+
+<section id="home">
+  <p lang="en">Welcome to EMRS Pratappur – nurturing young minds for a brighter future.</p>
+  <p lang="hi">EMRS प्रतापपुर में आपका स्वागत है – उज्ज्वल भविष्य के लिए प्रतिभाओं का पोषण।</p>
+</section>
+
+<section id="about">
+  <h2 lang="en">About Us</h2>
+  <h2 lang="hi">हमारे बारे में</h2>
+  <p lang="en">EMRS Pratappur is a government residential school for tribal children under the Ministry of Tribal Affairs.</p>
+  <p lang="hi">EMRS प्रतापपुर एक सरकारी आवासीय विद्यालय है जो जनजातिय कार्य मंत्रालय के अंतर्गत चलाया जाता है।</p>
+</section>
+
+<section id="academics">
+  <h2 lang="en">Academics</h2>
+  <h2 lang="hi">शिक्षा</h2>
+  <p lang="en">CBSE curriculum from Class VI to XII, with Science, Commerce, and Arts streams.</p>
+  <p lang="hi">CBSE पाठ्यक्रम कक्षा VI से XII तक – विज्ञान, वाणिज्य और कला संकाय के साथ।</p>
+</section>
+
+<section id="admissions">
+  <h2 lang="en">Admissions</h2>
+  <h2 lang="hi">प्रवेश</h2>
+  <p lang="en">Entrance exams conducted yearly. Forms are available online/offline.</p>
+  <p lang="hi">प्रवेश परीक्षा प्रतिवर्ष होती है। फॉर्म ऑनलाइन/ऑफलाइन उपलब्ध होते हैं।</p>
+</section>
+
+<section id="contact">
+  <h2 lang="en">Contact Us</h2>
+  <h2 lang="hi">संपर्क करें</h2>
+  <p>
+    <span lang="en">Address: EMRS Pratappur, Chhattisgarh<br>Email: emrs@example.com<br>Phone</p>
+    <span lang="hi">पता: ईएमआरएस प्रतापपुर, छत्तीसगढ़<br>ईमेल: emrs@example.com</p>
+  </p>
+</section>
+
+<footer>
+  <p lang="en">&copy; 2025 EMRS Pratappur. All rights reserved.</p>
+  <p lang="hi">&copy; 2025 ईएमआरएस प्रतापपुर. सर्वाधिकार संग्रक्षित।</p>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[lang]').forEach(el => {
+      el.style.display = el.getAttribute('lang') === lang ? 'block' : 'none';
+    });
+  }
+  setLang('en'); // default language
+</script>
+
+</body>
+</html>
