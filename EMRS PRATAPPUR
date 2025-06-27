@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EMRS Pratappur</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
+    header { background-color: #004d40; color: white; padding: 20px 0; text-align: center; }
+    nav { background: #00796b; display: flex; justify-content: center; padding: 10px 0; }
+    nav a { color: white; padding: 14px 20px; text-decoration: none; }
+    nav a:hover { background: #004d40; }
+    section { padding: 20px; max-width: 1000px; margin: auto; background: white; margin-top: 20px; }
+    footer { background: #004d40; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>EMRS Pratappur</h1>
+  <p>Ek Bharat, Shreshtha Bharat</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#academics">Academics</a>
+  <a href="#admissions">Admissions</a>
+  <a href="#faculty">Faculty</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to EMRS Pratappur</h2>
+  <p>EMRS Pratappur is dedicated to providing quality education to tribal students with a focus on holistic development.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>EMRS (Eklavya Model Residential School) Pratappur is a government initiative for the upliftment of tribal education in India.</p>
+</section>
+
+<section id="academics">
+  <h2>Academics</h2>
+  <p>We offer a CBSE-based curriculum from Class VI to XII, including Science, Commerce, and Arts streams.</p>
+</section>
+
+<section id="admissions">
+  <h2>Admissions</h2>
+  <p>Admissions are based on entrance tests conducted by the Ministry of Tribal Affairs. Stay updated for announcements.</p>
+</section>
+
+<section id="faculty">
+  <h2>Our Faculty</h2>
+  <p>Our team comprises experienced and dedicated educators committed to students' academic and personal growth.</p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <p>Images and event highlights will be updated here soon.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> EMRS Pratappur, District - [Your District], Chhattisgarh<br>
+     <strong>Email:</strong> emrspratappur@example.com<br>
+     <strong>Phone:</strong> +91-XXXXXXXXXX
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2025 EMRS Pratappur. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
